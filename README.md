@@ -1,4 +1,4 @@
-# Acoustic-scattering
+# Acoustic Scattering by Poroelastic Materials
 
 A boundary element method is developed to solve the non-homogeneous Helmholtz equation subjected to boundary conditions related to the plate vibration. This model represent a fluid-structure interaction problem to investigate how porosity and elasticity can affect the noise scattered at far-field. Poroelastic materiais can be studied by the combination of porous and elastic effects.
 
