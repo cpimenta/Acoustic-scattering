@@ -114,8 +114,8 @@ def main(args):
                             Implement poroelastic materials
     ==================================================================================
     """
-    beta = np.loadtxt('beta.txt')   # Read the Non-dimensional frequency
-    phi = np.loadtxt('modes.txt')   # Read the modal basis 
+    beta = np.loadtxt('modalBasis/beta.txt')   # Read the Non-dimensional frequency
+    phi = np.loadtxt('modalBasis/modes.txt')   # Read the modal basis 
     nm = len(beta)   # define number of modes
 
     nplate = Nps
