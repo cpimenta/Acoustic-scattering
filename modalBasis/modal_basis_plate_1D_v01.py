@@ -16,7 +16,7 @@ import glob
 import time
 from scipy.interpolate import BarycentricInterpolator as bi
 
-# Number of points in domain (N = par ou impar faz diferenca no modo)
+# Number of points in domain
 N = 320
 
 D,x = cheb(N)
@@ -78,7 +78,7 @@ np.set_printoptions(formatter={'float': '{:.4f}'.format})
 
 m = mode[:,idx]
 
-# # Normalise Eigenvalues
+# Normalise Eigenvalues
 nmodes = N+1;
 for imode in range(nmodes):
     m[:Np,imode] = m[:Np,imode]/norm(m[:Np,imode])
